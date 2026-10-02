@@ -1,0 +1,7 @@
+# Core functionality (SSH log parsing, risk scoring) needs no dependencies.
+# Install extras below only if you use the matching CLI flag.
+
+matplotlib>=3.5        # required for --plot (attack timeline visualization)
+geoip2>=4.6             # optional, required only for --geoip (MaxMind GeoLite2 lookups)
+
+# Recommended: Python 3.8+

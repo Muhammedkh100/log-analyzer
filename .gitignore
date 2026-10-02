@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Real log files should never be committed
+*.log
+!sample_auth.log
+!sample_nginx.log
+
+# Generated output
+attack_timeline.png
+*.mmdb
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
